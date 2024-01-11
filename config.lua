@@ -18,6 +18,6 @@ end
 -- Create a command and key mapping
 vim.cmd([[
     command! CsvToMarkdown lua csv_to_markdown()
-    nnoremap <Leader>t :CsvToMarkdown<CR>
+    nnoremap <Leader>mt :CsvToMarkdown<CR>
 ]])
 
